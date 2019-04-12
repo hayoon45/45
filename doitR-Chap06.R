@@ -1,4 +1,4 @@
-#06-02 133쪽 혼자서 해보기
+#06-02 p.133
 #Q1
 library(ggplot2)
 library(dplyr)
@@ -17,7 +17,7 @@ mean(mpg_toyota$cty)
 mpg_new <- mpg %>% filter(manufacturer %in% c("chevrolet", "ford", "honda"))
 mean(mpg_new$hwy)
 
-#06-03 138쪽 혼자서 해보기
+#06-03 p.138
 #Q1
 library(ggplot2)
 library(dplyr)
@@ -30,7 +30,7 @@ mpg_compact <- mpg_1 %>% filter(class=="compact")
 mean(mpg_suv$cty)
 mean(mpg_compact$cty)
 
-#06-04 141쪽 혼자서 해보기
+#06-04 141�? ?��?��?�� ?��보기
 #Q1
 library(ggplot2)
 library(dplyr)
@@ -41,7 +41,7 @@ mpg %>%
   arrange(desc(hwy)) %>%
   head(5)
 
-#06-05 144쪽 혼자서 해보기
+#06-05 p.144
 #Q1
 library(ggplot2)
 library(dplyr)
@@ -63,7 +63,7 @@ mpg %>%
   arrange(desc(total_mean)) %>%
   head(3)
 
-#06-06 150쪽 혼자서 해보기
+#06-06 p.150
 #Q1
 library(ggplot2)
 library(dplyr)
@@ -86,7 +86,7 @@ mpg %>%
   summarise(count = n()) %>%
   arrange(desc(count))
 
-#06-07 157쪽 혼자서 해보기
+#06-07 p.157
 library(ggplot2)
 library(dplyr)
 fuel <- data.frame(f1 = c("c", "d", "e", "p", "r"),
